@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Orders</title>
+</head>
+<body>
+
+     <!-- sideNav -->
+     <div class="sideNav">
+
+        <div class="tit">
+
+        <div class="title2">
+            <i class="fa-solid fa-grip"></i>
+            <h1>Dashboard</h1>
+        </div>
+
+        <div class="title2">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h1>Orders</h1>
+        </div></a>
+
+        <div class="title2">
+            <i class="fa-solid fa-bars"></i>
+            <h1>Menu</h1>
+        </div>
+        <div class="title2">
+            <i class="fa-solid fa-utensils"></i>
+            <h1>Restaurants</h1>
+        </div>
+
+
+        <div class="title2">
+            <i class="fa-solid fa-users"></i>
+            <h1>Customers</h1>
+        </div>
+
+
+        <div class="title2">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <h1>Sign Out</h1>
+        </div>
+    </div>
+    </div>
+
+    <!-- Section Two -->
+     <div class="boxes">
+
+        <div class="box">
+            <div class="box1">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>
+            <p>Total Orders</p>
+            <h1><span id="box1"> 85% </span></h1>  
+        </div>
+    </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="box1">
+                <i class="fa-solid fa-users"></i>
+            <div>
+            <p>Total Customers</p>
+            <h1> <span id="box2">30% </span></h1>  
+        </div>
+    </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="box1">
+                <i class="fa-solid fa-hand-holding-dollar "></i>
+            <div>
+            <p>Total Revenue</p>
+            <h1> <span id="box3">62%</span></h1>  
+        </div>
+    </div>
+        </div>
+       
+     </div>
+<table>
+        <thead>
+            <tr>
+                <th>Order ID:</th>
+                <th>Created at:</th>
+                <th>Customer:</th>
+                <th>Total:</th>
+                <th>Payment Status:</th>
+                <th>Items:</th>
+                <th>Action:</th>
+            </tr>
+        </thead>
+        <tbody>
+<!-- 
+            <tr class="row1">
+                <td>Order ID:</td>
+                <td>Created at:</td>
+                <td>Customer:</td>
+                <td>Total:</td>
+                <td>Payment Status:</td>
+                <td>Items:</td>
+                <td>Action:</td>
+            </tr> -->
+
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td>
+            </tr>
+            
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td><div class="action-buttons">
+                    <button class="btn view">
+                        <i class="icon">👁️</i>
+                    </button>
+            
+                    <button class="btn edit">
+                        <i class="icon">✏️</i>
+                    </button>
+            
+                    <button class="btn delete">
+                        <i class="icon">🗑️</i>
+                    </button>
+                </div></td></td></td>
+            </tr>
+
+
+            <tr>
+                <td>583488/80</td>
+                <td>Apr 23 , 2024</td>
+                <td>Mohamed</td>
+                <td>$1,230.00</td>
+                <td></td>
+                <td>4</td>
+                <td>
+                    <div class="action-buttons">
+                        <button class="btn view">
+                            <i class="icon">👁️</i>
+                        </button>
+                
+                        <button class="btn edit">
+                            <i class="icon">✏️</i>
+                        </button>
+                
+                        <button class="btn delete">
+                            <i class="icon">🗑️</i>
+                        </button>
+                    </div></td>
+            </tr>
+    </tbody>
+    
+</table>
+</body>
+</html>
+

@@ -1,291 +1,466 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: #f9f7f7;
 }
-.sideNav{
+
+.sideNav {
     position: fixed;
     width: 20%;
     height: 100vh;
     background-color: #262d34;
 }
 
-.tit{
+.tit {
     padding-top: 40px;
 
 }
 
-.title2 i{
+.title2 i {
     font-size: 2em;
     padding-top: 5px;
-    color: orange;
+    color:  #e6612a;
 }
-.title2{
+
+.title2 {
     display: flex;
     color: white;
     font-family: 'Arial Narrow';
     margin-top: 60px;
     gap: 15px;
     padding-left: 30px;
-  
-    
+
+
 }
-.title2:hover{
+
+.title2:hover {
     background-color: #FFEBCD;
     width: 80%;
     height: 85px;
     border-radius: 20px;
     align-items: center;
     margin-left: 8px;
-   
+
 }
 
-.title2 h1{
+.title2 h1 {
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 5px;
 }
 
-.boxes{
+.boxes {
     display: flex;
     justify-content: center;
     margin-left: 18%;
     gap: 20px;
-   
-}
-
-.box{
-display: flex;
-width: 350px;
-height: 150px;
-background-color: white;
-border-radius: 30px;
-margin-top: 50px;
 
 }
-.box:hover{
-    background-color:#FFEBCD;
+
+.box {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.box:hover {
+    background-color: #FFEBCD;
     opacity: 5px;
 }
 
-.box1{
+.box1 {
     display: flex;
     margin-top: 45px;
     margin-left: 20px;
     gap: 30px;
 }
 
-.box i{
+.box i {
     font-size: 3em;
     font-weight: 200px;
-    color: orange;
+    color:  #e6612a;
 }
 
-.box1 p{
+.box1 p {
     font-size: 1.5em;
 }
 
-#box1{
+#box1 {
     color: red;
 }
-#box2{
+
+#box2 {
     color: green;
 }
-#box3{
+
+#box3 {
     color: skyblue;
 }
 
-.text{
+.text {
     padding-top: 20px;
 }
 
-.desc{
+.desc {
     display: flex;
     /* padding-left: 23%; */
     gap: 10px;
     margin-top: 30px;
 }
 
-.color1{
+.color1 {
     background-color: red;
     width: 30px;
     height: 20px;
     margin-top: 10px;
 }
 
-.color2{
-    background-color:green;
+.color2 {
+    background-color: green;
     width: 30px;
     height: 20px;
     margin-top: 10px;
 }
 
-.color3{
+.color3 {
     background-color: skyblue;
     width: 30px;
     height: 20px;
     margin-top: 10px;
 }
 
-#color1{
+#color1 {
     color: red;
 }
 
-#color2{
+#color2 {
     color: green;
 }
-#color3{
+
+#color3 {
     color: skyblue;
 }
 
-.charts{
+.charts {
     margin-left: 22%;
     /* justify-content: center; */
     display: flex;
     gap: 20px;
 }
 
-.circle{
+.circle {
     display: flex;
     margin-top: 180px;
     gap: 40px;
 }
 
-.pai{
+.pai {
     width: 300px;
     height: 300px;
-    background: conic-gradient(
-        green 0% 14%,
-        red 14% 57%,
-        orange 57% 72%,
-        skyblue 72% 100%
-    );
+    background: conic-gradient(green 0% 14%,
+            red 14% 57%,
+            orange 57% 72%,
+            skyblue 72% 100%);
     border-radius: 50%;
 
 }
 
-        .bar{
-            border: 2px solid gray;
-            width: 40%;
-            height: 200px;
-            margin-top: 200px;
-            display: flex;
-            align-items: end;
-            margin-left: 5%;
-            gap: 20px;
-            border-top: none;
-        }
-        
-        .bar-box{
-            background-color: blue;
-            width: 40px;
-            height: 120px;
-            border-radius: 30px 30px 0 0 ;
-        }
-        
-        .bar1{
-            height: 30px;
-            background-color: green;
-        }
-        .bar2{
-            height: 200px;
-            background-color: skyblue;
-        }
-        .bar3{
-            height: 300px;
-            background-color: red;
-        }
-        .bar4{
-            height: 10px;
-            background-color: orange;
-        }
+.bar {
+    border: 2px solid gray;
+    width: 40%;
+    height: 200px;
+    margin-top: 200px;
+    display: flex;
+    align-items: end;
+    margin-left: 5%;
+    gap: 20px;
+    border-top: none;
+}
 
-        table{
-            border-collapse: collapse;
-            border-radius: 10px 10px 0 0;
-            overflow: hidden;
-            margin-left: 23%;
-            margin-top: 30px;
-            background-color: white;
-            margin-bottom: 20px;
-        }
-        table thead th, table tbody td{
-            padding: 20px 41px;
-        }
+.bar-box {
+    background-color: blue;
+    width: 40px;
+    height: 120px;
+    border-radius: 30px 30px 0 0;
+}
 
-        table thead tr{
-            background-color: White;
-        }        
-        table tbody tr{
-            border-bottom: 2px solid #F5F5F5;
-        }
-        table tbody tr:nth-of-type(even){
-            background-color: white;
-            color:black;
-        }
-        table tbody tr:hover{
-            color: black;
-            background-color: #fafafa;
-            /* transform: scale(1.1); */
-        }
-        table tbody .row1{
-            font-size: 1.3em;
-            color: black;
-            font-family: 'Times New Roman', Times, serif;
-            /* font-weight: 300; */
-            font: bold;
-        }
+.bar1 {
+    height: 30px;
+    background-color: green;
+}
 
-        .action-buttons {
-            display: flex;
-            gap: 30px;  
-             
-        }
-        
-        .btn {
-            width: 10px;
-            height: 10px;
-            border: none;
-            border-radius: 12px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-           
-        }
-        
-        /* View Button */
-        .btn.view {
-            background:#ffe8e0; 
-            color: #3b82f6;
-        }
-        
-        /* Edit Button */
-        .btn.edit {
-            background: #ffe8e0;  
-            color: #ff6a3d;
-        }
-        
-        /* Delete Button */
-        .btn.delete {
-            background: #ffe5e5;  
-            color: #ff4b4b;
-        }
+.bar2 {
+    height: 200px;
+    background-color: skyblue;
+}
+
+.bar3 {
+    height: 300px;
+    background-color: red;
+}
+
+.bar4 {
+    height: 10px;
+    background-color:  #e6612a;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin-left: 22%;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+table thead th,table tbody td {
+    padding: 20px 41px;
+}
+
+table thead tr {
+    background-color: White;
+}
+
+table tbody tr {
+    border-bottom: 2px solid #F5F5F5;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: white;
+    color: black;
+}
+
+table tbody tr:hover {
+    color: black;
+    background-color: #fafafa;
+    /* transform: scale(1.1); */
+}
+
+table tbody .row1 {
+    /* font-size: 1.8em; */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 300; */
+    font: bold;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 30px;
+
+}
+
+.btn {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+/* View Button */
+.btn.view {
+    background: #ffe8e0;
+    color: #3b82f6;
+}
+
+/* Edit Button */
+.btn.edit {
+    background: #ffe8e0;
+    color: #ff6a3d;
+}
+
+/* Delete Button */
+.btn.delete {
+    background: #ffe5e5;
+    color: #ff4b4b;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* footer */
+
+
+.footer {
+    display: flex;
+}
+
+.button {
+    padding: 8px 10px;
+    background-color: #e6612a;
+    border-radius: 7px;
+    color: #e6612a;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.Status {
+    margin-left: 20px;
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.Status p {
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.Status2 {
+    margin-left: 10px;
+    width: 80px;
+    height: 25px;
+    background-color: #eef2f7;
+    color: black;
+    border-radius: 4px;
+
+}
+
+.Status2 p {
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.bur {
+    display: flex;
+    gap: 15px;
+}
+
+.fahin {
+    padding-top: 8px;
+}
+
+.all {
+    display: flex;
+    gap: 8px;
+}
+
+.Status3 {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    width: 55px;
+    height: 25px;
+    background-color: #eef2f7;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    padding-left: 7px;
+}
+
+.Status3 i {
+    color:  #e6612a;
+}
+
+.Status3 h5 {
+    color: black;
+}
+
+.all .prag {
+    padding-top: 4px;
+}
+
+.tobBar {
+    background-color:  #e6612a;
+    width: 100%;
+    height: 90px;
+}
+
+.secBar{
+    display: flex;
+    margin-left: 20%;
+    justify-content: space-between;
+    /* padding-right: 40px; */
+    /* gap: 30px; */
+       padding: 30px 30px;
+}
+
+.icons{
+    display: flex;
     
-        .btn:hover {
-            opacity: 0.85;
-        }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
+}
+
+.cons{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.cons i{
+    padding-right: 20px;
+    font-size: 1.2em;
+    color:  white;
+}
+
+input{
+    background-color: #fcf9f9;
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.icons #sawir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.pro{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.pro i{
+    font-size: 1.4em;
+    padding-top: 9px;
+}
+
+.add{
+    margin-left: 88%;
+    /* margin-top: 80px; */
+    /* padding-top: 70px; */
+}
+
+#addPro{
+background-color: #e6612a;
+border: none;
+padding: 10px 15px;
+margin-top: 50px;
+color: white;
+border-radius: 10px;
+font-size: 1em;
+font-weight: 400;
+}
+
+#addPro:hover{
+    background-color: #e6612a;
+}
+
+#rec{
+    padding-left: 25%;
+   margin-top: 20px;
+}

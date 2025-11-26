@@ -464,3 +464,7 @@ font-weight: 400;
     padding-left: 25%;
    margin-top: 20px;
 }
+
+a{
+    text-decoration: none;
+}
